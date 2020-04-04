@@ -1,6 +1,9 @@
 {
-    "require": {
-        "bcosca/fatfree": "^3.7",
-        "ikkez/f3-schema-builder": "^2.2"
-    }
+	"require": {
+		"bcosca/fatfree": "^3.7",
+		"ikkez/f3-schema-builder": "dev-master"
+	},
+	"replace": {
+		"bcosca/fatfree-core": "*"
+	}
 }

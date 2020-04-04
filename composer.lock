@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1ab95563c9319fba90890586bc3dc12",
+    "content-hash": "da4562982183c3c01d2bb60d4c2eac86",
     "packages": [
         {
             "name": "bcosca/fatfree",
@@ -38,39 +38,8 @@
             "time": "2019-12-30T20:54:35+00:00"
         },
         {
-            "name": "bcosca/fatfree-core",
-            "version": "3.7.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bcosca/fatfree-core.git",
-                "reference": "64318caa00de4da0f558d2334dc70538bdbcd1ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/64318caa00de4da0f558d2334dc70538bdbcd1ad",
-                "reference": "64318caa00de4da0f558d2334dc70538bdbcd1ad",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "."
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
-            "homepage": "http://fatfreeframework.com/",
-            "time": "2019-12-30T20:49:06+00:00"
-        },
-        {
             "name": "ikkez/f3-schema-builder",
-            "version": "v2.2.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ikkez/f3-schema-builder.git",
@@ -108,7 +77,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "ikkez/f3-schema-builder": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
