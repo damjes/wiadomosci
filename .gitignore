@@ -125,3 +125,5 @@ tags
 .vim
 
 # End of https://www.gitignore.io/api/vim,composer,phpstorm
+
+baza.sqlite

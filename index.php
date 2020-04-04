@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$f3 = \Base::instance();
+$f3 = Base::instance();
 
 require 'app/include.php';
 
@@ -19,6 +19,12 @@ $f3->route('GET /test',
     function() {
         echo 'Test .htaccess';
     }
+);
+
+$f3->route('GET /zaladuj_schemat [cli]',
+	function($f3) {
+		zaladujSchematy($f3);
+	}
 );
 
 $f3->run();

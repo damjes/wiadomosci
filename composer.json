@@ -1,5 +1,6 @@
 {
     "require": {
-        "bcosca/fatfree": "^3.7"
+        "bcosca/fatfree": "^3.7",
+        "ikkez/f3-schema-builder": "^2.2"
     }
 }
