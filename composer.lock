@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da4562982183c3c01d2bb60d4c2eac86",
+    "content-hash": "57c294239c1296f15af9aaf10925c62b",
     "packages": [
         {
             "name": "bcosca/fatfree",
@@ -39,7 +39,7 @@
         },
         {
             "name": "ikkez/f3-schema-builder",
-            "version": "dev-master",
+            "version": "v2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ikkez/f3-schema-builder.git",
@@ -77,9 +77,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ikkez/f3-schema-builder": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
