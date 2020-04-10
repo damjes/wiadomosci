@@ -2,12 +2,11 @@
 
 require 'vendor/autoload.php';
 
-$f3 = Base::instance();
+$f3 = \Base::instance();
+$f3->config('app/aplikacja.ini');
 
-require 'app/include.php';
-
-czytajKonfigi($f3);
-utworzPolaczenie($f3);
+Konfig::czytajKonfigi($f3);
+Model::utworzPolaczenie($f3);
 
 $f3->route('GET /',
     function() {
@@ -21,9 +20,9 @@ $f3->route('GET /test',
     }
 );
 
-$f3->route('GET /zaladuj_schemat [cli]',
+$f3->route('GET /zaladuj_schematy [cli]',
 	function($f3) {
-		zaladujSchematy($f3);
+		Model::zaladujSchematy($f3);
 	}
 );
 
