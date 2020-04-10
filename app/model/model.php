@@ -13,5 +13,6 @@ function zaladujSchematy(Base $f3) {
 	$polaczenie = $f3->get('db.polaczenie');
 	$schemat = new DB\SQL\Schema($polaczenie);
 
+	User::zaladujSchemat($schemat);
 	Wiadomosc::zaladujSchemat($schemat);
 }
