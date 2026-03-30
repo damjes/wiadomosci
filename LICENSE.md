@@ -1,5 +1,5 @@
-DamjesaP – Damjesa Permesilo
-============================
+DamjesaP 2.1 – Damjesa Permesilo
+=================================
 
 Vi havas kvar fundamentajn liberecojn:
 
